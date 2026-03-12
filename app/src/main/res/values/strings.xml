@@ -46,7 +46,7 @@
     <string name="confirm_label_date">Event Date</string>
     <string name="confirm_label_gender">Gender</string>
     <string name="confirm_label_image">Profile Image</string>
-    <string name="btn_back_home">← Back to Home</string>
+    <string name="btn_back_home">Back to Home</string>
 
     <!-- Spinner placeholder -->
     <string name="spinner_hint">Select Event Type</string>

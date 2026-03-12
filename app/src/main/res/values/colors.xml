@@ -2,4 +2,40 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <!-- ===== OBSIDIAN GALA THEME ===== -->
+    <!-- Backgrounds -->
+    <color name="colorBg">#07070F</color>
+    <color name="colorSurface">#0D0D20</color>
+    <color name="colorCard">#131325</color>
+    <color name="colorCardStroke">#252545</color>
+
+    <!-- Primary: Champagne Gold -->
+    <color name="colorPrimary">#F0B429</color>
+    <color name="colorPrimaryDark">#B8891F</color>
+    <color name="colorPrimaryLight">#F5C84A</color>
+    <color name="colorPrimaryAlpha">#33F0B429</color>
+
+    <!-- Secondary: Sky Blue -->
+    <color name="colorSecondary">#0EA5E9</color>
+    <color name="colorSecondaryAlpha">#220EA5E9</color>
+
+    <!-- Accent: Coral -->
+    <color name="colorAccent">#FF6B6B</color>
+
+    <!-- Typography -->
+    <color name="colorText">#F4F0FF</color>
+    <color name="colorTextSecondary">#9090C0</color>
+    <color name="colorTextMuted">#5A5A8A</color>
+    <color name="colorTextOnPrimary">#07070F</color>
+
+    <!-- Semantic -->
+    <color name="colorSuccess">#10B981</color>
+    <color name="colorSuccessAlpha">#2210B981</color>
+    <color name="colorError">#EF4444</color>
+
+    <!-- Form inputs -->
+    <color name="colorInputBg">#0A0A1C</color>
+    <color name="colorInputStroke">#2A2A48</color>
+    <color name="colorDivider">#1E1E3A</color>
 </resources>

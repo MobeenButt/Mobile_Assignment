@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Event illustration: conference stage with spotlight, audience, stars -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="300dp"
+    android:height="200dp"
+    android:viewportWidth="300"
+    android:viewportHeight="200">
+
+    <!-- === Background atmosphere === -->
+    <!-- Warm spotlight cone from top center -->
+    <path android:fillColor="#12F0B429"
+        android:pathData="M150,0 L80,170 L220,170 Z" />
+
+    <!-- Subtle sky-blue accent top-left -->
+    <path android:fillColor="#0C0EA5E9"
+        android:pathData="M0,0 L60,0 L0,80 Z" />
+    <!-- Subtle sky-blue accent top-right -->
+    <path android:fillColor="#0C0EA5E9"
+        android:pathData="M300,0 L240,0 L300,80 Z" />
+
+    <!-- === Stage platform === -->
+    <path android:fillColor="#1E1E38"
+        android:pathData="M40,165 L260,165 L275,180 L25,180 Z" />
+    <path android:fillColor="#252545"
+        android:pathData="M40,163 L260,163 L260,167 L40,167 Z" />
+    <!-- Stage gold edge line -->
+    <path android:strokeColor="#F0B429" android:strokeWidth="1.5"
+        android:fillColor="#00000000"
+        android:pathData="M38,163 L262,163" />
+
+    <!-- === Podium === -->
+    <path android:fillColor="#1A1A32"
+        android:pathData="M135,110 L165,110 L158,163 L142,163 Z" />
+    <path android:fillColor="#252545"
+        android:pathData="M133,108 L167,108 L167,113 L133,113 Z" />
+
+    <!-- === Microphone === -->
+    <!-- Mic body -->
+    <path android:fillColor="#F0B429"
+        android:pathData="M145,72 A10,14 0 1,0 155,72 L155,100 A5,5 0 0,1 145,100 Z" />
+    <!-- Mic grill lines -->
+    <path android:strokeColor="#07070F" android:strokeWidth="1.5"
+        android:fillColor="#00000000"
+        android:pathData="M145,80 L155,80" />
+    <path android:strokeColor="#07070F" android:strokeWidth="1.5"
+        android:fillColor="#00000000"
+        android:pathData="M145,86 L155,86" />
+    <!-- Mic stand curve -->
+    <path android:strokeColor="#F0B429" android:strokeWidth="2"
+        android:fillColor="#00000000"
+        android:pathData="M150,100 L150,115 M140,115 L160,115" />
+    <!-- Mic sound waves -->
+    <path android:strokeColor="#40F0B429" android:strokeWidth="1.5"
+        android:fillColor="#00000000"
+        android:pathData="M138,80 A18,22 0 0,0 138,60" />
+    <path android:strokeColor="#40F0B429" android:strokeWidth="1.5"
+        android:fillColor="#00000000"
+        android:pathData="M162,80 A18,22 0 0,1 162,60" />
+    <path android:strokeColor="#20F0B429" android:strokeWidth="1"
+        android:fillColor="#00000000"
+        android:pathData="M130,85 A28,32 0 0,0 130,55" />
+    <path android:strokeColor="#20F0B429" android:strokeWidth="1"
+        android:fillColor="#00000000"
+        android:pathData="M170,85 A28,32 0 0,1 170,55" />
+
+    <!-- === Audience silhouettes === -->
+    <!-- Person 1 -->
+    <path android:fillColor="#1A1A35"
+        android:pathData="M55,148 A9,9 0 1,0 73,148 L77,163 L51,163 Z" />
+    <!-- Person 2 -->
+    <path android:fillColor="#1D1D38"
+        android:pathData="M88,145 A9,9 0 1,0 106,145 L110,163 L84,163 Z" />
+    <!-- Person 3 (slightly in front) -->
+    <path android:fillColor="#222240"
+        android:pathData="M200,148 A9,9 0 1,0 218,148 L222,163 L196,163 Z" />
+    <!-- Person 4 -->
+    <path android:fillColor="#1A1A35"
+        android:pathData="M232,145 A9,9 0 1,0 250,145 L254,163 L228,163 Z" />
+
+    <!-- === Decorative elements === -->
+    <!-- Large star top-left -->
+    <path android:fillColor="#F0B429"
+        android:pathData="M35,28 L37,21 L39,28 L46,28 L41,33 L43,40 L37,36 L31,40 L33,33 L28,28 Z" />
+    <!-- Large star top-right -->
+    <path android:fillColor="#F0B429"
+        android:pathData="M258,22 L260,15 L262,22 L269,22 L264,27 L266,34 L260,30 L254,34 L256,27 L251,22 Z" />
+    <!-- Small blue star left -->
+    <path android:fillColor="#0EA5E9"
+        android:pathData="M18,80 L19,76 L20,80 L24,80 L21,82 L22,86 L19,84 L16,86 L17,82 L14,80 Z" />
+    <!-- Small blue star right -->
+    <path android:fillColor="#0EA5E9"
+        android:pathData="M277,75 L278,71 L279,75 L283,75 L280,77 L281,81 L278,79 L275,81 L276,77 L273,75 Z" />
+    <!-- Tiny sparkle dots -->
+    <path android:fillColor="#80F0B429" android:pathData="M70,20 A3,3 0 1,0 70,26 A3,3 0 1,0 70,20 Z" />
+    <path android:fillColor="#80F0B429" android:pathData="M228,18 A3,3 0 1,0 228,24 A3,3 0 1,0 228,18 Z" />
+    <path android:fillColor="#600EA5E9" android:pathData="M285,42 A2,2 0 1,0 285,46 A2,2 0 1,0 285,42 Z" />
+    <path android:fillColor="#600EA5E9" android:pathData="M14,140 A2,2 0 1,0 14,144 A2,2 0 1,0 14,140 Z" />
+
+    <!-- Horizontal decoration lines -->
+    <path android:strokeColor="#18F0B429" android:strokeWidth="1"
+        android:fillColor="#00000000"
+        android:pathData="M0,12 L300,12" />
+    <path android:strokeColor="#18F0B429" android:strokeWidth="1"
+        android:fillColor="#00000000"
+        android:pathData="M0,188 L300,188" />
+
+    <!-- Vertical accent lines (art deco style) -->
+    <path android:strokeColor="#10F0B429" android:strokeWidth="1"
+        android:fillColor="#00000000"
+        android:pathData="M12,12 L12,188" />
+    <path android:strokeColor="#10F0B429" android:strokeWidth="1"
+        android:fillColor="#00000000"
+        android:pathData="M288,12 L288,188" />
+</vector>
+

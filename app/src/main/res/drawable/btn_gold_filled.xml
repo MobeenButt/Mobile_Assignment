@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Gold filled pill button -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <corners android:radius="32dp" />
+            <gradient
+                android:angle="135"
+                android:startColor="#B8891F"
+                android:centerColor="#D4A030"
+                android:endColor="#C89520" />
+        </shape>
+    </item>
+    <item android:state_focused="true">
+        <shape android:shape="rectangle">
+            <corners android:radius="32dp" />
+            <gradient
+                android:angle="135"
+                android:startColor="#F5C84A"
+                android:endColor="#F0B429" />
+            <stroke android:width="2dp" android:color="#FFFFFFFF" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="32dp" />
+            <gradient
+                android:angle="135"
+                android:startColor="#F0B429"
+                android:centerColor="#E8A820"
+                android:endColor="#F5C84A" />
+        </shape>
+    </item>
+</selector>
+

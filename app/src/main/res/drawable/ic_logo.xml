@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- App Logo: Geometric calendar-star in a glowing ring -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="100dp"
+    android:height="100dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+
+    <!-- Outer glow ring fill -->
+    <path
+        android:fillColor="#20F0B429"
+        android:pathData="M50,4 A46,46 0 1,0 50,96 A46,46 0 1,0 50,4 Z" />
+
+    <!-- Outer gold ring border -->
+    <path
+        android:strokeColor="#F0B429"
+        android:strokeWidth="2"
+        android:fillColor="#00000000"
+        android:pathData="M50,8 A42,42 0 1,0 50,92 A42,42 0 1,0 50,8 Z" />
+
+    <!-- Inner thin ring -->
+    <path
+        android:strokeColor="#60F0B429"
+        android:strokeWidth="1"
+        android:fillColor="#00000000"
+        android:pathData="M50,14 A36,36 0 1,0 50,86 A36,36 0 1,0 50,14 Z" />
+
+    <!-- Calendar body background -->
+    <path
+        android:fillColor="#1AF0B429"
+        android:strokeColor="#F0B429"
+        android:strokeWidth="1.5"
+        android:pathData="M30,38 L70,38 L70,74 L30,74 Z" />
+
+    <!-- Calendar header bar (gold) -->
+    <path
+        android:fillColor="#F0B429"
+        android:pathData="M30,38 L70,38 L70,50 L30,50 Z" />
+
+    <!-- Calendar pin left -->
+    <path
+        android:strokeColor="#D4A030"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M40,33 L40,43" />
+
+    <!-- Calendar pin right -->
+    <path
+        android:strokeColor="#D4A030"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M60,33 L60,43" />
+
+    <!-- Header text dots (simplified "SE") -->
+    <path android:fillColor="#07070F" android:pathData="M37,42 A2,2 0 1,0 37,46 A2,2 0 1,0 37,42 Z" />
+    <path android:fillColor="#07070F" android:pathData="M44,42 A2,2 0 1,0 44,46 A2,2 0 1,0 44,42 Z" />
+
+    <!-- Calendar grid: row 1 -->
+    <path android:fillColor="#F0B429" android:pathData="M37,56 A2.5,2.5 0 1,0 37,61 A2.5,2.5 0 1,0 37,56 Z" />
+    <path android:fillColor="#F0B429" android:pathData="M50,56 A2.5,2.5 0 1,0 50,61 A2.5,2.5 0 1,0 50,56 Z" />
+    <path android:fillColor="#F0B429" android:pathData="M63,56 A2.5,2.5 0 1,0 63,61 A2.5,2.5 0 1,0 63,56 Z" />
+
+    <!-- Calendar grid: row 2 — highlighted star date -->
+    <path android:fillColor="#F0B429" android:pathData="M37,65 A2.5,2.5 0 1,0 37,70 A2.5,2.5 0 1,0 37,65 Z" />
+    <!-- Highlighted today circle -->
+    <path android:fillColor="#F0B429" android:pathData="M50,63 A4,4 0 1,0 50,71 A4,4 0 1,0 50,63 Z" />
+    <path android:fillColor="#07070F" android:pathData="M50,65 A2,2 0 1,0 50,69 A2,2 0 1,0 50,65 Z" />
+    <path android:fillColor="#F0B429" android:pathData="M63,65 A2.5,2.5 0 1,0 63,70 A2.5,2.5 0 1,0 63,65 Z" />
+
+    <!-- Top-right sparkle star -->
+    <path
+        android:fillColor="#F5C84A"
+        android:pathData="M77,18 L78.5,13 L80,18 L85,18 L81,21 L82.5,26 L78.5,23 L74.5,26 L76,21 L72,18 Z" />
+
+    <!-- Bottom-left small star -->
+    <path
+        android:fillColor="#0EA5E9"
+        android:pathData="M17,65 L18,62 L19,65 L22,65 L20,67 L21,70 L18,68 L15,70 L16,67 L14,65 Z" />
+</vector>
+

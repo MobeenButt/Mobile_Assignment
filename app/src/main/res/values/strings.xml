@@ -1,3 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">2023-CS-28_Section-A</string>
+    <string name="app_name">Smart Event Manager</string>
+
+    <!-- Splash -->
+    <string name="splash_app_name">SMART EVENT MANAGER</string>
+    <string name="splash_welcome">Welcome to the Event Management App</string>
+    <string name="splash_tagline">Your gateway to extraordinary experiences</string>
+
+    <!-- Main Screen -->
+    <string name="main_badge">✦  PREMIUM EVENT PLATFORM  ✦</string>
+    <string name="main_title">Discover &amp;\nExperience Events</string>
+    <string name="main_description">From professional seminars to cultural celebrations — register for world-class events seamlessly in just a few taps.</string>
+    <string name="btn_register">REGISTER FOR EVENT</string>
+    <string name="main_footer">200+ Events  ·  Verified Organizers  ·  Instant Confirmation</string>
+
+    <!-- Registration -->
+    <string name="reg_title">EVENT REGISTRATION</string>
+    <string name="reg_subtitle">Fill in your details to secure your spot</string>
+    <string name="section_personal">PERSONAL DETAILS</string>
+    <string name="section_event">EVENT DETAILS</string>
+    <string name="section_image">PROFILE IMAGE</string>
+    <string name="hint_full_name">Participant Full Name</string>
+    <string name="hint_phone">Phone Number</string>
+    <string name="hint_email">Email Address</string>
+    <string name="label_select_date">Select Event Date</string>
+    <string name="label_gender">Select Gender</string>
+    <string name="label_upload">Choose Profile Image</string>
+    <string name="label_terms">I accept the Terms &amp; Conditions</string>
+    <string name="btn_submit">SUBMIT REGISTRATION</string>
+    <string name="no_date_selected">— Tap to select date —</string>
+
+    <!-- Dialog -->
+    <string name="dialog_title">Confirm Registration</string>
+    <string name="dialog_message">You are about to submit your event registration.\n\nProceed?</string>
+    <string name="dialog_submit">Submit</string>
+    <string name="dialog_review">Review</string>
+
+    <!-- Confirmation -->
+    <string name="confirm_headline">YOU\'RE REGISTERED!</string>
+    <string name="confirm_success">Your event registration has been submitted successfully.</string>
+    <string name="confirm_label_name">Full Name</string>
+    <string name="confirm_label_phone">Phone Number</string>
+    <string name="confirm_label_email">Email Address</string>
+    <string name="confirm_label_event">Event Type</string>
+    <string name="confirm_label_date">Event Date</string>
+    <string name="confirm_label_gender">Gender</string>
+    <string name="confirm_label_image">Profile Image</string>
+    <string name="btn_back_home">← Back to Home</string>
+
+    <!-- Spinner placeholder -->
+    <string name="spinner_hint">Select Event Type</string>
 </resources>

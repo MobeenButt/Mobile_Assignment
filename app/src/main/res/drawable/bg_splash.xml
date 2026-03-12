@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Splash: deep black with a warm amber radial glow from center -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#07070F" />
+        </shape>
+    </item>
+    <!-- Warm amber radial glow (center stage) -->
+    <item>
+        <shape android:shape="oval">
+            <gradient
+                android:type="radial"
+                android:gradientRadius="60%p"
+                android:centerX="0.5"
+                android:centerY="0.45"
+                android:startColor="#18F0B429"
+                android:endColor="#00000000" />
+        </shape>
+    </item>
+    <!-- Subtle sky-blue accent (bottom-right corner) -->
+    <item>
+        <shape android:shape="oval">
+            <gradient
+                android:type="radial"
+                android:gradientRadius="40%p"
+                android:centerX="0.85"
+                android:centerY="0.85"
+                android:startColor="#0E0EA5E9"
+                android:endColor="#00000000" />
+        </shape>
+    </item>
+</layer-list>
+

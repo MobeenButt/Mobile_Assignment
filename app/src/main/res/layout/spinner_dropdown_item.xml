@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Each item in the dropdown list -->
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tvSpinnerDropdownItem"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:gravity="center_vertical"
+    android:paddingStart="20dp"
+    android:paddingEnd="20dp"
+    android:background="#131325"
+    android:textColor="#F4F0FF"
+    android:textSize="14sp"
+    android:ellipsize="end"
+    android:singleLine="true" />
+

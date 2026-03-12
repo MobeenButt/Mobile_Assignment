@@ -3,44 +3,89 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white">
+    android:background="@drawable/bg_splash">
+
+    <!-- Radial Glow under the logo -->
+    <View
+        android:id="@+id/viewLogoGlow"
+        android:layout_width="280dp"
+        android:layout_height="280dp"
+        android:alpha="0"
+        android:background="@drawable/success_glow_bg"
+        app:layout_constraintBottom_toBottomOf="@+id/ivSplashLogo"
+        app:layout_constraintEnd_toEndOf="@+id/ivSplashLogo"
+        app:layout_constraintStart_toStartOf="@+id/ivSplashLogo"
+        app:layout_constraintTop_toTopOf="@+id/ivSplashLogo" />
 
     <ImageView
-        android:id="@+id/logo"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
-        android:src="@mipmap/ic_launcher"
-        android:contentDescription="@string/content_desc_logo"
-        app:layout_constraintBottom_toTopOf="@+id/appName"
+        android:id="@+id/ivSplashLogo"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:alpha="0"
+        android:src="@drawable/ic_logo"
+        app:layout_constraintBottom_toTopOf="@+id/tvSplashAppName"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_chainStyle="packed" />
+        app:layout_constraintVertical_chainStyle="packed"
+        app:tint="@color/colorPrimary" />
 
     <TextView
-        android:id="@+id/appName"
+        android:id="@+id/tvSplashAppName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:text="@string/app_name"
-        android:textSize="24sp"
-        android:textStyle="bold"
-        android:textColor="@color/black"
-        app:layout_constraintBottom_toTopOf="@+id/welcomeText"
+        android:layout_marginTop="24dp"
+        android:alpha="0"
+        android:fontFamily="sans-serif-black"
+        android:letterSpacing="0.1"
+        android:text="@string/splash_app_name"
+        android:textColor="@color/colorPrimary"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toTopOf="@+id/dividerSplash"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/logo" />
+        app:layout_constraintTop_toBottomOf="@+id/ivSplashLogo" />
+
+    <View
+        android:id="@+id/dividerSplash"
+        android:layout_width="60dp"
+        android:layout_height="3dp"
+        android:layout_marginTop="16dp"
+        android:alpha="0"
+        android:background="@color/colorSecondary"
+        app:layout_constraintBottom_toTopOf="@+id/tvSplashWelcome"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvSplashAppName" />
 
     <TextView
-        android:id="@+id/welcomeText"
+        android:id="@+id/tvSplashWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:alpha="0"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/splash_welcome"
+        android:textColor="@color/colorText"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/tvSplashTagline"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dividerSplash" />
+
+    <TextView
+        android:id="@+id/tvSplashTagline"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:text="@string/welcome_splash"
-        android:textSize="16sp"
+        android:alpha="0"
+        android:fontFamily="sans-serif-light"
+        android:text="@string/splash_tagline"
+        android:textColor="@color/colorTextSecondary"
+        android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/appName" />
+        app:layout_constraintTop_toBottomOf="@+id/tvSplashWelcome" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

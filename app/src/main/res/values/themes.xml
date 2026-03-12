@@ -8,9 +8,7 @@
         <item name="colorOnSecondary">@color/colorTextOnPrimary</item>
         <item name="colorSurface">@color/colorCard</item>
         <item name="colorOnSurface">@color/colorText</item>
-        <item name="colorBackground">@color/colorBg</item>
-        <item name="colorOnBackground">@color/colorText</item>
-        <item name="colorError">@color/colorError</item>
+        <item name="android:colorBackground">@color/colorBg</item>
         <item name="android:colorBackground">@color/colorBg</item>
         <item name="android:windowBackground">@color/colorBg</item>
         <item name="android:statusBarColor">@color/colorBg</item>

@@ -12,23 +12,29 @@
         android:supportsRtl="true"
         android:theme="@style/Theme._2023CS28_SectionA">
 
+        <!-- 1. Splash (LAUNCHER) — fullscreen -->
         <activity
             android:name=".SplashActivity"
-            android:exported="true">
+            android:exported="true"
+            android:theme="@style/Theme.App.Splash">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
 
+        <!-- 2. Main / Home screen -->
         <activity
             android:name=".MainActivity"
             android:exported="false" />
 
+        <!-- 3. Event Registration -->
         <activity
             android:name=".EventRegistrationActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
 
+        <!-- 4. Confirmation -->
         <activity
             android:name=".ConfirmationActivity"
             android:exported="false" />
